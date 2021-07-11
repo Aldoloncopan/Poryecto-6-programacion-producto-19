@@ -6,3 +6,12 @@ reg=input('Region: ')
 codr=int(input('Codigo Region: '))
 datos2=datos[['Region','Codigoregion','Comuna']]
 print (datos2[(datos2.Region==reg) & (datos.Codigoregion==codr)])
+print('Ingrese Fecha y Comuna:')
+fecha=input('Fecha: ')
+com='15101'
+datos3=datos[['Region','Codigocomuna',fecha]]
+print (datos3[(datos3.Region==reg) & (datos.Codigocomuna==com)])
+
+ax = datos3.plot.bar(x=fecha, y = "Codigocomuna", rot = 0)
+plt.show()
+
