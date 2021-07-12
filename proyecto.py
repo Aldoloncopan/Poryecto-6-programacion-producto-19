@@ -28,7 +28,7 @@ while opcion !=3:#se inicia el menu con un while con sus respectivas restriccion
    
     fig, ax = plt.subplots()
     plt.title("Casos Activos")#titulo de la gráfica
-    ax.barh([fecha,fecha2,fecha3], [5, 10, 12])#variables representadas en la gráfica
+    ax.barh([fecha,fecha2,fecha3], [100, 257, 300])#variables representadas en la gráfica
     plt.show()#funcion para mostrar todo lo solicitado
 
   elif opcion==2:
