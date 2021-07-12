@@ -11,7 +11,7 @@ def menu(): #definimos esta funcion para poder hacer uso del  menú de abajo
 while opcion !=3:#se inicia el menu con un while con sus respectivas restricciones e instrucciones
   opcion=menu()
   if opcion==1:
-    print("Tarapaca: 01\nAntofagasta: 02\nAtacama: 03\nCoquimbo cod. region: 04\nValparaiso cod. region: 05\nLibertador Gral. Bernardo O’Higgins cod. region: 06\nMaule: 07\nBiobio: 08\nLa Araucania: 09\nLos Lagos: 10\nAysen: 11\nMagallanes y la antartica: 12\nMetropolitana: 13\nLos Rios: 14\nArica y Parinacota: 15\nNuble: 16")
+    print("Tarapaca: 01\nAntofagasta: 02\nAtacama: 03\nCoquimbo cod. region: 04\nValparaiso cod. region: 05\nLibertador Gral. Bernardo O’Higgins cod. region: 06\nMaule: 07\nBiobio: 08\nLa Araucania: 09\nLos Lagos: 10\nAysen: 11\nMagallanes y la Antartica: 12\nMetropolitana: 13\nLos Rios: 14\nArica y Parinacota: 15\nNuble: 16\n RESPETAR LAS MAYUSCULAS")
     datos=pd.read_csv('CasosActivosPorComuna.csv',header=0)
     print("INGRESE REGION Y CODIGO DE REGION")
     reg=input('Region: ')
